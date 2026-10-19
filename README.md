@@ -304,5 +304,32 @@ access tokens when asking for help. Share only sanitized error messages.
 
 ------------------------------------------------------------------------
 
+## Testing Instructions
+
+### 1. Register an Account
+- Open the [BlogSpace Live Application](https://blog-app-eight-bay.vercel.app/).
+- Navigate to the registration page.
+- Enter your name, email address, and password.
+- Register and log in using your credentials.
+
+### 2. Test Blog Operations
+- **Create:** Create a blog with a title and content.
+- **Read:** Open the homepage and view the published blog.
+- **View Details:** Open the blog to verify its author, content, and timestamps.
+- **Edit:** Open your dashboard and edit one of your own blogs.
+- **Delete:** Delete one of your own blogs and verify that it is removed.
+
+### 3. Test Authorization
+- Register a second account.
+- Log in with the second account and attempt to edit or delete the first account's blog.
+- Verify that the application prevents unauthorized modifications.
+
+### 4. Test Validation and Error Handling
+- Try submitting empty or invalid form fields.
+- Try logging in with incorrect credentials.
+- Verify that appropriate validation messages or error responses are displayed.
+
+--------------------------------------------------------------------------------
+
 Built as a full-stack blog application project using Next.js and
 MongoDB.
