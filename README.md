@@ -100,4 +100,4 @@ Restrict database access where practical. Never publish connection strings, pass
 - Verify production environment variables and database connectivity
 
 ## Developer
-**Tamil Selvam D** · [GitHub](https://github.com/TamilSelvam1817) · [LinkedIn](https://linkedin.com/in/itz-tamilselvam/)
+**Tamil Selvam D** · [GitHub](https://github.com/TamilSelvam1817) · [LinkedIn](https://www.linkedin.com/in/tamil-selvam-51b5b4291/?isSelfProfile=true)
